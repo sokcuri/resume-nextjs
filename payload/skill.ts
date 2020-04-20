@@ -4,16 +4,20 @@ const backend: ISkill.Skill = {
   category: 'Back-end',
   items: [
     {
-      title: 'Node.js',
-      level: 3,
+      title: 'TypeScript',
+      level: 2,
     },
     {
-      title: 'AWS',
-      level: 3,
+      title: 'Node.js',
+      level: 2,
+    },
+    {
+      title: 'C/C++',
+      level: 2,
     },
     {
       title: 'PHP',
-      level: 2,
+      level: 1,
     },
     {
       title: 'Java',
@@ -21,10 +25,6 @@ const backend: ISkill.Skill = {
     },
     {
       title: 'Python',
-      level: 1,
-    },
-    {
-      title: 'C/C++',
       level: 1,
     },
   ],
@@ -35,18 +35,14 @@ const database: ISkill.Skill = {
   items: [
     {
       title: 'MySQL',
-      level: 3,
-    },
-    {
-      title: 'Oracle',
       level: 2,
     },
     {
       title: 'Redis',
-      level: 2,
+      level: 1,
     },
     {
-      title: 'MongoDB',
+      title: 'ElasticSearch',
       level: 1,
     },
   ],
@@ -56,20 +52,24 @@ const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
     {
-      title: 'Next.js',
+      title: 'Javascript',
       level: 2,
     },
     {
-      title: 'React.js',
-      level: 2,
-    },
-    {
-      title: 'javascript',
+      title: 'jQuery',
       level: 2,
     },
     {
       title: 'HTML/CSS',
-      level: 2,
+      level: 1,
+    },
+    {
+      title: 'Nuxt.js',
+      level: 1,
+    },
+    {
+      title: 'Vue.js',
+      level: 1,
     },
   ],
 };
@@ -81,19 +81,22 @@ const etc: ISkill.Skill = {
       title: 'Ubuntu',
     },
     {
+      title: 'Selenium',
+    },
+    {
       title: 'Vim',
     },
     {
-      title: 'Security',
+      title: 'DevOps',
+    },
+    {
+      title: 'Docker',
     },
     {
       title: 'VS Code',
     },
     {
-      title: 'Jira',
-    },
-    {
-      title: 'Confluence',
+      title: 'Git',
     },
   ],
 };

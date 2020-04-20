@@ -5,20 +5,16 @@ const etc: IEtc.Payload = {
 
   list: [
     {
-      title: 'Capstone Design Contest',
-      subTitle: 'Grand Prize',
-      startedAt: '2015-05',
+      title: '우아한테크캠프 1기',
+      subTitle: '수료 • 배달의민족의 우아한테크캠프 프로그램 참여',
+      startedAt: '2017-07',
+      endedAt: '2017-09',
     },
     {
-      title: 'IT Education Service Activities',
-      subTitle: 'Wrold Friends IT Volunteer',
-      startedAt: '2013-07',
-      endedAt: '2013-08',
-    },
-    {
-      title: 'Information Olympiad',
-      subTitle: 'Silver Prize',
-      startedAt: '2008-05',
+      title: '소프트웨어 마에스트로 7기',
+      subTitle: '창업인증 • 미래창조과학부 SW마에스트로 프로그램 참여',
+      startedAt: '2016-06',
+      endedAt: '2017-05',
     },
   ],
 };
