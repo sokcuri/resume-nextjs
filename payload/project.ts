@@ -4,6 +4,17 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: '샌드박스 기반 신작 프로젝트 개발',
+      startedAt: '2019-08',
+      endedAt: '2019-11',
+      where: '5minlab',
+      descriptions: [
+        {
+          content:
+            '언리얼 물리엔진을 이용한 샌드박스 게임에서 기획 및 산출물 제작에 필요한 데이터 변환 툴들을 제작하였고 Modding 지원을 위한 기술검토를 진행했습니다.',
+        },
+      ],
+    },{
       title: 'TypeScript to C# Transpiler, Auto Binder 제작',
       startedAt: '2019-06',
       endedAt: '2019-08',
@@ -16,18 +27,6 @@ const project: IProject.Payload = {
         {
           content:
             'Typescript Compiler API를 이용해 변수 및 구조체의 타입을 추론할 수 있고, JSDoc과 같은 Annotation을 달아 Request 및 Response 구조체를 추출해 CI 빌드시 자동으로 바인딩 코드를 제작하는 프로젝트를 진행하였습니다',
-        },
-      ],
-    },
-    {
-      title: '샌드박스 기반 신작 프로젝트 개발',
-      startedAt: '2019-08',
-      endedAt: '2019-09',
-      where: '5minlab',
-      descriptions: [
-        {
-          content:
-            '언리얼 물리엔진을 이용한 샌드박스 게임에서 기획 및 산출물 제작에 필요한 데이터 변환 툴들을 제작하였고 Modding 지원을 위한 기술검토를 진행했습니다.',
         },
       ],
     },
