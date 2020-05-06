@@ -6,7 +6,7 @@ const experience: IExperience.Payload = {
     {
       title: '5minlab',
       position: '테크팀 소프트웨어 엔지니어',
-      startedAt: '2018-07',
+      startedAt: '2018-09',
       endedAt: '2019-11',
       descriptions: [
         '캐주얼 모바일 게임 제작 및 유지보수 개발 업무',

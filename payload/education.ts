@@ -7,8 +7,8 @@ const education: IEducation.Payload = {
     {
       title: '독학학위제',
       subTitle: '컴퓨터과학과 학사 • 독학학위제로 컴퓨터과학과 학사를 받았습니다',
-      startedAt: '2018-03',
-      endedAt: '2019-02',
+      startedAt: '2017-03',
+      endedAt: '2018-02',
     },
     {
       title: '순천향대학교',
