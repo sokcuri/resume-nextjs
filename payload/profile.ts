@@ -1,4 +1,4 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/pic.jpg';
@@ -18,11 +18,6 @@ const profile: IProfile.Payload = {
       title: 'sokcuri@gmail.com',
       link: '#',
       icon: faEnvelope,
-    },
-    {
-      title: 'Please contact me by email',
-      icon: faPhone,
-      badge: true,
     },
     {
       title: 'https://github.com/sokcuri',

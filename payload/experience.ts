@@ -4,6 +4,31 @@ const experience: IExperience.Payload = {
   disable: false,
   list: [
     {
+      title: 'guardtec',
+      position: '프론트엔드/백엔드 엔지니어',
+      startedAt: '2020-05',
+      descriptions: [
+        'Summary: WinForm 기반 기존 출입통제 관리 툴을 웹 기반으로 포팅',
+        'FrontEnd: TypeScript VueJS 기반 프론트엔드 작성',
+        'Design: 기존 일관적이지 않고 불편한 UX를 개선하는 작업 병행',
+        'Server: ASP.NET Core 기반 API 서버에 표준화된 개념들 적용 (JWT 토큰, 미들웨어 등)',
+        '개발팀 내에서 이슈 발생시 기술지원 및 코드 리뷰, 업무 지원 진행',
+        '프론트엔드 일정 수립 및 프로젝트 설계 및 구현',
+      ],
+      skillKeywords: [
+        'Node.js',
+        'TypeScript',
+        'VueJS',
+        'Vuetify',
+        'HTML5',
+        'CSS3',
+        'ASP.net Core',
+        'C#',
+        'C++',
+        'MSSQL',
+      ],
+    },
+    {
       title: '5minlab',
       position: '테크팀 소프트웨어 엔지니어',
       startedAt: '2018-09',

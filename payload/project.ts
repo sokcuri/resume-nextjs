@@ -4,6 +4,30 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: '프리코네 지금 열렸니?',
+      startedAt: '2020-05',
+      endedAt: '2020-05',
+      where: 'Personal (Hobby)',
+      descriptions: [
+        {
+          content:
+            '카카오게임즈에서 서비스하는 프린세스 커넥트! Re:Dive의 점검 현황을 체크해 주는 페이지입니다. 점검 기간에는 안내 메시지가 나오고 서버가 열리면 음악이 나옵니다.',
+        },
+      ],
+    },
+    {
+      title: '스피커 원클릭 전환 툴 스피카',
+      startedAt: '2020-05',
+      endedAt: '2020-05',
+      where: 'Personal (Hobby)',
+      descriptions: [
+        {
+          content:
+            '피시방에 있는 스피커-헤드셋 전환 프로그램과 비슷한 원클릭 전환 프로그램입니다. 헤드셋이나 스피커에 해당하는 프로그램을 실행하면 해당 오디오 폼팩터로 기본 장치가 전환됩니다. 기존 스피커-헤드셋 전환은 상당히 복잡해 설정이 어려워 어려움을 겪는 것을 보고 조금 더 쉬운 방법이 있을까 고민이 되다가 만들게 된 프로그램입니다.',
+        },
+      ],
+    },
+    {
       title: '샌드박스 기반 신작 프로젝트 개발',
       startedAt: '2019-08',
       endedAt: '2019-11',
@@ -14,7 +38,8 @@ const project: IProject.Payload = {
             '언리얼 물리엔진을 이용한 샌드박스 게임에서 기획 및 산출물 제작에 필요한 데이터 변환 툴들을 제작하였고 Modding 지원을 위한 기술검토를 진행했습니다.',
         },
       ],
-    },{
+    },
+    {
       title: 'TypeScript to C# Transpiler, Auto Binder 제작',
       startedAt: '2019-06',
       endedAt: '2019-08',
