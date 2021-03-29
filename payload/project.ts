@@ -4,6 +4,54 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: '스마트 리포트',
+      startedAt: '2020-12',
+      endedAt: '2021-03',
+      where: 'Seoul Ventures',
+      descriptions: [
+        {
+          content:
+            '온라인 광고를 대행해주는 에이전시 회사를 위한 플랫폼입니다. 고객사의 광고 효율이나 인사이트를 분석할 수 있고 고객에게 발송하는 리포트를 쉽게 만들어주는 웹 기반 리포팅 서비스입니다'
+        }
+      ]
+    },
+    {
+      title: 'Project We:Jet',
+      startedAt: '2020-09',
+      endedAt: '2020-12',
+      where: 'Seoul Ventures',
+      descriptions: [
+        {
+          content:
+            '위젯 형태의 컴포넌트들을 쉽게 붙여 쇼핑몰 사이트의 유입 및 매출 증대를 돕는 위젯 프로젝트의 설계와 프로토타이핑을 진행하였으며 어드민 프론트엔드와 백엔드, 쇼핑몰에 들어가는 인젝션되는 스크립트 엔트리 및 플러그인을 개발하였습니다. 프론트엔드는 Vue를, 백엔드는 Laravel과 PHP로 이루어져 있습니다.'
+        }
+      ]
+    },
+    {
+      title: '쇼핑몰 이탈방지 솔루션 리타쿠 플로트',
+      startedAt: '2020-08',
+      endedAt: '2020-09',
+      where: 'Seoul Ventures',
+      descriptions: [
+        {
+          content:
+            '쇼핑몰에서 외부 사이트로 나가려고 주소창으로 마우스 포인터를 이동하면 관심이 있는 상품을 띄워 주는 쇼핑몰 이탈방지 솔루션인 리타쿠 플로트를 만들었습니다. 추천 상품과 함께 캠페인 배너도 노출합니다.'
+        }
+      ]
+    },
+    {
+      title: 'AxWeb',
+      startedAt: '2020-06',
+      endedAt: '2020-08',
+      where: 'guardtec',
+      descriptions: [
+        {
+          content:
+            '출입통제 시스템인 Ax의 웹 포팅 작업을 진행했습니다. 개발 일정 조율과 이슈 해결을 주로 해왔으며, 디자인 가이드에 맞춰 레이아웃과 컴포넌트를 제작하였습니다.'
+        }
+      ]
+    },
+    {
       title: '프리코네 지금 열렸니?',
       startedAt: '2020-05',
       endedAt: '2020-05',

@@ -5,11 +5,11 @@ const backend: ISkill.Skill = {
   items: [
     {
       title: 'TypeScript',
-      level: 2,
+      level: 3,
     },
     {
       title: 'Node.js',
-      level: 2,
+      level: 3,
     },
     {
       title: 'C/C++',
@@ -17,7 +17,7 @@ const backend: ISkill.Skill = {
     },
     {
       title: 'PHP',
-      level: 1,
+      level: 2,
     },
     {
       title: 'Java',
@@ -35,11 +35,15 @@ const database: ISkill.Skill = {
   items: [
     {
       title: 'MySQL',
-      level: 2,
+      level: 3,
+    },
+    {
+      title: 'MongoDB',
+      level: 3,
     },
     {
       title: 'Redis',
-      level: 1,
+      level: 2,
     },
     {
       title: 'ElasticSearch',
@@ -53,22 +57,26 @@ const frontend: ISkill.Skill = {
   items: [
     {
       title: 'Javascript',
-      level: 2,
+      level: 3,
     },
     {
       title: 'jQuery',
-      level: 2,
+      level: 3,
+    },
+    {
+      title: 'Vue.js',
+      level: 3,
     },
     {
       title: 'HTML/CSS',
-      level: 1,
+      level: 2,
     },
     {
       title: 'Nuxt.js',
       level: 1,
     },
     {
-      title: 'Vue.js',
+      title: 'React.js',
       level: 1,
     },
   ],

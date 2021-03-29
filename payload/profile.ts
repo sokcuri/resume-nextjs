@@ -26,7 +26,7 @@ const profile: IProfile.Payload = {
     },
   ],
   notice: {
-    title: '이력서를 검토해 주셔서 감사합니다',
+    title: '저의 이력서를 검토해 주셔서 감사합니다!',
     icon: faBell,
   },
 };

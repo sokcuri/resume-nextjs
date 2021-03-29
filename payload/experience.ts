@@ -4,9 +4,38 @@ const experience: IExperience.Payload = {
   disable: false,
   list: [
     {
+      title: 'Seoul Ventures',
+      position: '소프트웨어 엔지니어',
+      startedAt: '2020-08',
+      descriptions: [
+        'DevOps: Jenkins CI 구축 및 빌드 스크립트 작성',
+        'FrontEnd: VueJS3 기반 어드민 작성',
+        'BackEnd: TS+Express+TypeORM 기반 백엔드 설계',
+        '광고 에이전시 리포팅 툴 프론트엔드 및 백엔드 개발',
+        '쇼핑몰 지능형 이탈방지 솔루션 설계 및 프로토타이핑',
+        '인스턴스 및 서비스 보안검수 및 해킹 탐지 대응 업무 진행',
+        '개발 팀 내 이슈의 기술지원 및 코드 리뷰, 업무 지원 진행',
+        '폴리필 이슈 및 프론트엔드 웹팩 설정'
+      ],
+      skillKeywords: [
+        'Node.js',
+        'TypeScript',
+        'VueJS',
+        'PrimeVue',
+        'HTML5',
+        'CSS3',
+        'Express',
+        'TypeORM',
+        'MySQL',
+        'MongoDB',
+        'ProxySQL'
+      ]
+    },
+    {
       title: 'guardtec',
       position: '프론트엔드/백엔드 엔지니어',
       startedAt: '2020-05',
+      endedAt: '2020-07',
       descriptions: [
         'Summary: WinForm 기반 기존 출입통제 관리 툴을 웹 기반으로 포팅',
         'FrontEnd: TypeScript VueJS 기반 프론트엔드 작성',
