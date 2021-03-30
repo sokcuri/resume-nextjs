@@ -16,6 +16,18 @@ const project: IProject.Payload = {
       ]
     },
     {
+      title: '시나리오 기반 추천 상품 알고리즘 시스템',
+      startedAt: '2020-11',
+      endedAt: '2020-12',
+      where: 'Seoul Ventures',
+      descriptions: [
+        {
+          content:
+            '기존에 서비스되던 쇼핑몰의 추천 상품 알고리즘은 하드코딩되어 있어 명확한 기준이나 추적이 힘들었는데, 이를 시나리오 기반으로 재구성하고 DB의 수정만으로도 추천 알고리즘의 종류와 범위 등을 다이나믹하게 변경할 수 있는 시스템을 구축하였습니다'
+        }
+      ]
+    },
+    {
       title: 'Project We:Jet',
       startedAt: '2020-09',
       endedAt: '2020-12',
